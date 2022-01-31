@@ -8,25 +8,6 @@
 
 A tool for helping to understand APIs exported and consumed by NPM packages (or any TypeScript code).
 
-    ## Install
-
-```bash
-yarn install
-```
-
-## Develop
-
-```bash
-# Watch and rebuild the app on every file change
-yarn dev
-
-# Build the app
-yarn build
-
-# Build and bundle the app into a single executable JS file
-yarn bundle
-```
-
 ## Usage
 
 **Compare exports of different package versions**
@@ -55,6 +36,10 @@ npx @grafana/levitate list-imports \
 npx @grafana/levitate list-exports \
     --path <PATH-TO-A-PACKAGE>/index.d.ts
 ```
+
+## Contributing
+
+If you are interested in contributing to the Levitate project please read the [Contributing guide](https://github.com/grafana/levitate/blob/HEAD/CONTRIBUTING.md).
 
 [npm-url]: https://www.npmjs.com/package/@grafana/levitate
 [npm-badge]: https://img.shields.io/npm/v/@grafana/levitate.svg
